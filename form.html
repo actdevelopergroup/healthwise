@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="referrer" content="origin-when-cross-origin">
+    <title>Health Wise</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+</head>
+<body class="wrapper">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand text-uppercase" href="index.html">Health Wise</a>
+          <div class="collapse navbar-collapse" id="mainMenu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link" href="form.html">Order Now</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="content-wrapper">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-sm-8">
+                <div class="card no-border no-round">
+                    <div class="card-body">
+                    <div class="row justify-content-center">
+                            <div class="col-md-7">
+                                <h1 class="fs-15 text-green bold text-center">A QUICK NOTICE PLEASE!</h1>
+                                <p class="text pt-2 pb-2" style="font-weight:500;">Make sure you have the Money with you before You Order.Make sure you will be available to receive it when we call to deliver. If you can’t answer our call when we call, Please Do Not Order. It’s for those that want to Help Themselves and those that are serious.</p>
+                                <p class="text pt-2 pb-2 text-muted">”There is a Huge Demand for this product. So if our line is busy, please keep calling back or you just send text message or Whatsapp our number or Fill the Form to Order We shall contact you soon. Believe me, this product is so fantastic, it will worth more than whatever time and money you spend to order for it You will forever appreciate it”</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <h1 class="lead bold mt-4 mb-3 text-green text-center text-uppercase">FILL THE FORM BELOW TO ORDER FOR IT</h1>
+                                <div class="order_product">
+                                    <form action="" data-netlify="true" method="POST">
+                                        <div class="form-group">
+                                            <label for="fullName" class="mb-2 bold">Full Name</label>
+                                            <input name="fullName" id="fullName" type="text"  class="form-control input-lg" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="mobileNumber" class="mb-2 bold">Phone Number</label>
+                                            <input name="mobileNumber" id="mobileNumber" type="text" class="form-control input-lg" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="mobileNumber2" class="mb-2 bold">Phone Number(Alternative) </label>
+                                            <input name="mobileNumber2" id="mobileNumber2" type="text" class="form-control input-lg">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="address" class="mb-2 bold">Address </label>
+                                            <textarea name="address" id="address" class="form-control" cols="30" rows="5" required></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="order" class="mb-2 bold">Select Quantity</label>
+                                            <select name="order_number" class="form-control" id="order" required>
+                                                <option>Please select</option>
+                                                <option value="1">one cleanse,one purexcel  45000</option>
+                                                <option value="2">Two cleanse two purexcel 80000</option>
+                                                <option value="3">One daily build 30000 </option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="delivery" class="mb-2 bold">Will You Be Able To Receive Your Package Within 4 Days</label>
+                                            <select name="delivery" class="form-control" id="delivery" required>
+                                                <option>Please select</option>
+                                                <option value="1">Yes</option>
+                                                <option value="2">No</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="comment" class="mb-2 bold">Additional Comment </label>
+                                            <input name="comment" id="comment" type="text" class="form-control input-lg">
+                                        </div>
+                                        <div class="form-group">
+                                            <div data-netlify-recaptcha="true"></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <button name="submit" class="btn btn-primary btn-md">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
